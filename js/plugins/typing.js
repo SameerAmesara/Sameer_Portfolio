@@ -1,7 +1,7 @@
 const text = document.querySelector('.trm-typed-text');
 
 const words = [
-  "Big Data Engineer",
+  "Big data Engineer",
   "Software Developer",
   "Avid Learner",
   "Dreamer :)"
@@ -78,7 +78,7 @@ document.addEventListener("swup:contentReplaced", function() {
   const text = document.querySelector('.trm-typed-text');
 
   const words = [
-    "Big Data Engineer",
+    "Big data Engineer",
     "Software Developer",
     "Avid Learner",
     "Dreamer :)"
