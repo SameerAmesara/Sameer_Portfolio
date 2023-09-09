@@ -663,7 +663,7 @@ mode switcher
       z-index: 9;
       bottom: 0;
       left: -10%; }
-    .trm-mode-swich-animation-frame .trm-mode-swich-animation .fa-sun {
+    .trm-mode-swich-animation-frame .trm-mode-swich-animation .fa-moon {
       position: absolute;
       z-index: 0;
       top: 0;
@@ -672,7 +672,7 @@ mode switcher
       opacity: 1;
       color: #00283A;
       transition: 0.6s ease-in-out; }
-    .trm-mode-swich-animation-frame .trm-mode-swich-animation .fa-moon {
+    .trm-mode-swich-animation-frame .trm-mode-swich-animation .fa-sun {
       position: absolute;
       z-index: 0;
       top: 0;
@@ -682,10 +682,10 @@ mode switcher
       opacity: 0;
       transform: translateY(70px) rotate(0);
       transition: 0.6s ease-in-out; }
-    .trm-mode-swich-animation-frame .trm-mode-swich-animation.trm-active .fa-sun {
+    .trm-mode-swich-animation-frame .trm-mode-swich-animation.trm-active .fa-moon {
       transform: translateY(70px) rotate(360deg);
       opacity: 0; }
-    .trm-mode-swich-animation-frame .trm-mode-swich-animation.trm-active .fa-moon {
+    .trm-mode-swich-animation-frame .trm-mode-swich-animation.trm-active .fa-sun {
       transform: translateY(0) rotate(360deg);
       opacity: 1; }
 

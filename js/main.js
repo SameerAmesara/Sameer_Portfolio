@@ -95,14 +95,14 @@ $(function() {
   $('.trm-mode-switcher').clone().appendTo('.trm-mode-switcher-place');
   $('#trm-swich').change(function() {
     if (this.checked) {
-      $('.trm-hidden-switcher input').prop("checked", true);
+      $('.trm-hidden-switcher input').prop("checked", false);
       $('.trm-mode-swich-animation-frame').addClass('trm-active');
       $("#trm-scroll-container").animate({
         opacity: 0,
       }, 600, function() {
         setTimeout(function() {
           $('.trm-mode-swich-animation').addClass('trm-active');
-          $("#trm-switch-style").attr("href", "css/style-dark.css");
+          $("#trm-switch-style").attr("href", "css/style-light.css");
         }, 200);
         setTimeout(function() {
           $('.trm-mode-swich-animation-frame').removeClass('trm-active');
@@ -112,14 +112,14 @@ $(function() {
         }, 1000);
       });
     } else {
-      $('.trm-hidden-switcher input').prop("checked", false);
+      $('.trm-hidden-switcher input').prop("checked", true);
       $('.trm-mode-swich-animation-frame').addClass('trm-active');
       $("#trm-scroll-container").animate({
         opacity: 0,
       }, 600, function() {
         setTimeout(function() {
           $('.trm-mode-swich-animation').removeClass('trm-active');
-          $("#trm-switch-style").attr("href", "css/style-light.css");
+          $("#trm-switch-style").attr("href", "css/style-dark.css");
         }, 200);
         setTimeout(function() {
           $('.trm-mode-swich-animation-frame').removeClass('trm-active');
@@ -300,7 +300,7 @@ $(function() {
     $('.trm-mode-switcher').clone().appendTo('.trm-mode-switcher-place');
     $('#trm-swich').change(function() {
       if (this.checked) {
-        $('.trm-hidden-switcher input').prop("checked", true);
+        $('.trm-hidden-switcher input').prop("checked", false);
         $('.trm-mode-swich-animation-frame').addClass('trm-active');
         $("#trm-scroll-container").animate({
           opacity: 0,
@@ -317,7 +317,7 @@ $(function() {
           }, 1000);
         });
       } else {
-        $('.trm-hidden-switcher input').prop("checked", false);
+        $('.trm-hidden-switcher input').prop("checked", true);
         $('.trm-mode-swich-animation-frame').addClass('trm-active');
         $("#trm-scroll-container").animate({
           opacity: 0,
